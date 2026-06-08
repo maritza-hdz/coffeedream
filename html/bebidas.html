@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BEBIDAS</title>
+</head>
+<body>
+     <div class="contenedor">
+     	<div class ="contenedor">
+            
+            <header class= "cabecera">
+                <div class="titulo">
+                    <h1>"Puro aroma, puro sabor."</h1><video autoplay muted loop src="../videos/animacion.mp4"></video></div>
+                    
+                     <div class="contenido">
+
+                    <h2> ¡Bienvenidos a nuestro menu de bebidas!</h2>
+               
+                <p>
+                   Disfruta de nuestros deliciosos postres. Preparados
+                    con dedicación y los mejores ingredientes. Aquí encontrarás un espacio cálido, 
+                acogedor y lleno del aroma del café recién preparado, 
+            ideal para compartir, relajarte o simplemente disfrutar un momento especial.</p>
+
+        
+                   <p> 
+                   ¡Esperamos que disfrutes cada sorbo y cada bocado!</p>
+
+                   </div>
+                
+
+            </header>
+
+                <div class="logo"><img src="../imagenes/limonada.jpeg"></div>
+                
+           
+
+
+
+
+     	<nav class="menu">
+            <div class="hamburguesa" id="hamburguesa">
+                <span class="barra"></span>
+                <span class="barra"></span>
+                <span class="barra"></span>
+            </div>
+
+     		<ul class="menulista" id="menulista">
+                <li class="menuitem"><a href="index.html"class="menulink">Inicio</a></li>
+                 <li class="menuitem"><a href="#"class="menulink">Productos</a></li>
+                  <li class="menuitem"><a href="bebidas.html"class="menulink">Bebidas</a></li>
+                   <li class="menuitem"><a href="postres.html"class="menulink">Postres</a></li>
+
+     	</nav>
+
+     	<h2 class="texto1">
+            <p>
+                ☕ Bebidas Calientes
+                .Espresso: El corazón de la cafetería,  Es un café corto, concentrado y muy intenso.
+                .Americano: Shot de espresso diluido en agua caliente.
+                .Capuchino: Espresso con leche vaporizada y una deliciosa capa densa de espuma.
+                .Latte (Café con leche): Espresso mezclado con abundante leche vaporizada y una capa muy fina de espuma.
+</p></h2>
+        </h2>
+       
+            <img class="cafe"src="../imagenes/latte.jpeg">
+
+      </main>
+
+
+          <img class="cafe"src="../imagenes/jugo.jpeg">
+        
+        <h2 class="texto2">
+        <p>
+            🧊 Bebidas Frías y Refrescantes
+        .Cold Brew: Café extraído en frío durante varias horas. Es dulce, suave y menos ácido, Excelente para tomarse solo o con un toque de leche.
+        .Frappé: Bebida base (café, té matcha o saborizantes como vainilla/caramelo).
+        .Iced Latte: Espresso servido sobre hielo con leche fría.
+        .Té helado o Tisanas: Infusiones frutales o herbales servidas con hielo, perfectas para un día caluroso. </p></h2>
+       </h2>
+
+    </main>
+    </aside>
+
+     			<div class="minis">
+        
+            <h2></h2>
+            <p> 
+            🍃 Alternativas sin Café
+            .Matcha Latte: Té verde japonés en polvo, rico en antioxidantes, mezclado con leche caliente o fría.
+            .Chai Latte: Té negro concentrado con especias (canela, cardamomo, jengibre) mezclado con leche espumada.
+            .Tisanas frutales: Bebidas calientes o frías hechas a base de trozos de fruta deshidratada e hibiscus.
+            .Chocolate caliente: Clásico reconfortante, espeso y dulce. </p>
+        </div>
+        
+        <div class="minis">
+            <h2></h2>
+            <p>¿Te gustan los climas frios?. No hay nada mejor que una buena taza 
+            de café para sentir calma y calidez en medio del frío. 
+        En Coffee Dream somos la mejor opción para tus días nublados y ventosos, 
+    ofreciéndote bebidas que reconfortan, aromas que inspiran y postres que alegran el corazón. </p>
+        </div>
+    
+    <footer class="pie">
+        <p> 📍 Ubicación y Contacto
+        Dirección: Insurgentes Sur 452, Roma Norte, CDMX. </p>
+    </footer>
+     	</div>
+             
+
+
+</body>
+</html>
+<script>
+    const hamburguesa = document.getElementById("hamburguesa");
+    const menulista = document.getElementById("menulista");
+    hamburguesa.addEventListener("click",() =>{
+        hamburguesa.classList.toggle("active");
+        menulista.classList.toggle("active");
+    });
+
+</script>
